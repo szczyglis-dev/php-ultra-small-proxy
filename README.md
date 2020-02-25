@@ -127,6 +127,7 @@ or by PayPal:
 Enjoy!
 
 
+
 MIT License | 2020 Marcin 'szczyglis' Szczygliński
 
 https://github.com/szczyglis-dev/php-ultra-small-proxy
