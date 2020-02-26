@@ -18,7 +18,7 @@ Ultra Small Proxy is a light-weight proxy written in PHP.
 - POST variables redirecting
 - Toolbar with address bar and connection debugger
 - URLs rewriting at runtime (links, images, css, javascript, etc.)
-- 2 different methods for URLs rewriting: Regex (via preg_replace) and DOM XML (via libxml & DOMDocument)
+- 2 different methods for URLs rewriting: Regex (with preg_replace) and DOM XML (with libxml / DOMDocument)
 - PHP 5 and PHP 7 supported
 
 
