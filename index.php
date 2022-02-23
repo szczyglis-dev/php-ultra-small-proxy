@@ -2,8 +2,7 @@
 
 include __DIR__.'/UltraSmallProxy.php';
 
-$proxy = new UltraSmallProxy();
+$config = new UltraSmallProxyConfig();
+$proxy = new UltraSmallProxy($config);
 
-$output = $proxy->load('https://github.com'); // <-- specify start page here
-
-echo $output;
+echo $proxy->load('https://github.com'); // <-- specify start page here

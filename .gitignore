@@ -1,3 +1,6 @@
-temp/
-cookies/
-.idea/
+/cookies/*
+/cache/*
+/.idea/*
+
+!/cookies/index.html
+!/cache/index.html
