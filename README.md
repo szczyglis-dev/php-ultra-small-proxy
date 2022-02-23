@@ -51,8 +51,7 @@ $output = $proxy->load('https://github.com');
 echo $output;
 
 ```
-Make sure to have write permissions to `./cookies` directory.
-Make sure to have write permissions to `./cache` directory.
+Make sure to have write permissions to `./cookies` and `./cache` directories.
 
 ### BE CAREFUL: directory with cookies should not be available to the public!
 
