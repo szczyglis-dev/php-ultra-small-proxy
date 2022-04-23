@@ -94,7 +94,7 @@ boolean `$force` - if set to `false` then URLs given from QUERY STRING are alway
 
 ## Config values:
 
-**Before page load:**
+Before page load:
 
 **$config->set('init', true)** - `boolean`, auto-init `true|false`, default: `true`
 
@@ -145,7 +145,7 @@ boolean `$force` - if set to `false` then URLs given from QUERY STRING are alway
 
 ## Public methods:
 
-**After page load:**
+After page load:
 
 **$siteCookies = $proxy->cookie->getSiteCookies()** - returns cookies[] received from proxied site
 
