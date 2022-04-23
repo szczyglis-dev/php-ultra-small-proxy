@@ -160,9 +160,9 @@ After page load:
 **$errors = $proxy->getErrors()** - returns error messages[] if occured
 
  
-**Others:**
+Others methods:
 
-$parsed = $proxy->render($html) - parse/rewrite URLs in custom html content with selected `$rewriteMode`
+**$parsed = $proxy->render($html)** - parse/rewrite URLs in custom html content with selected `$rewriteMode`
 
 ---
 
