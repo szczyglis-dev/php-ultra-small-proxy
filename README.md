@@ -32,7 +32,7 @@ composer require szczyglis/php-ultra-small-proxy
 ## Requirements:
 
 - PHP 7.2.5+ with CURL and XML extensions
-- Composer
+- Composer - https://getcomposer.org/
 
 
 ## Usage example:
