@@ -61,8 +61,9 @@ Make sure to have write permissions to `./cookies` and `./cache` directories.
 
 
 Open `loopback.php` if you want to test proxy features like sessions support, POST vars redirecting, form submiting and more, e.g.:
-```
+```php
 <?php
+
 $output = $proxy->load('http://localhost/loopback.php'); 
 ```
 
