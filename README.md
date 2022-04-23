@@ -5,7 +5,7 @@ Current version: **2.1** | 2022-04-23
 
 Ultra Small Proxy is a light-weight proxy written in PHP. 
 
-**Install with composer:**
+## Install with composer:
 ```
 composer require szczyglis/php-ultra-small-proxy
 ``` 
