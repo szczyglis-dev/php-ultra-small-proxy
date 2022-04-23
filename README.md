@@ -3,7 +3,7 @@ PHP: **7.2.5+**, current release: **2.1** build 2022-04-23
 
 **Ultra Small Proxy is a light-weight proxy written in PHP.**
 
-**Install with composer:**
+## How to install:
 ```
 composer require szczyglis/php-ultra-small-proxy
 ``` 
