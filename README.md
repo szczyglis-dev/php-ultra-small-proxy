@@ -34,6 +34,7 @@ composer require szczyglis/php-ultra-small-proxy
 ## Usage example:
 ```php
 <?php
+// app.php
 
 require __DIR__ . '/vendor/autoload.php';
 
@@ -75,6 +76,7 @@ $output = $proxy->load('http://localhost/loopback.php');
 ## Basic usage:
 
 ```php
+
 use Szczyglis\UltraSmallProxy\UltraSmallProxy;
 use Szczyglis\UltraSmallProxy\Config;
 
