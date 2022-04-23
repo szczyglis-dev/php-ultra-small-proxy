@@ -3,12 +3,7 @@
 
 Current version: **2.1** | 2022-04-23
 
-Ultra Small Proxy is a light-weight proxy written in PHP. 
-
-## Install with composer:
-```
-composer require szczyglis/php-ultra-small-proxy
-``` 
+**Ultra Small Proxy is a light-weight proxy written in PHP.**
 
 ## Features:
 
@@ -28,7 +23,11 @@ composer require szczyglis/php-ultra-small-proxy
 - URLs rewriting/proxying at runtime (links, images, css, javascript, etc.)
 - 2 different methods for URLs rewriting: Regex (with preg_replace) and XML (with libxml/DOM)
 - PHP 7.2.5+ supported
-
+- 
+## How to install:
+```
+composer require szczyglis/php-ultra-small-proxy
+``` 
 ## Requirements:
 
 - PHP 7.2.5+ with CURL and XML extensions
