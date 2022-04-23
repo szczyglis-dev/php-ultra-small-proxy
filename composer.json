@@ -1,0 +1,37 @@
+{
+    "name": "szczyglis/php-ultra-small-proxy",
+    "description": "Light-weight proxy with full support for sessions, cookies, POST/FORMS submiting and URLs rewriting",
+    "type": "library",
+    "license": "MIT",
+    "homepage": "https://github.com/szczyglis-dev/php-ultra-small-proxy",
+    "autoload": {
+        "psr-4": {
+            "Szczyglis\\UltraSmallProxy\\": "src/"
+        }
+    },
+    "keywords": [
+        "proxy",
+        "client",
+        "web",
+        "networking",
+        "website",
+        "webproxy",
+        "crawler",
+        "rewrite",
+        "http",
+        "cookies"
+    ],
+    "authors": [
+        {
+            "name": "szczyglis",
+            "email": "szczyglis@protonmail.com",
+            "homepage": "https://szczyglis.dev"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.2.5",
+        "ext-curl": "*",
+        "ext-xml": "*"
+    }
+}
