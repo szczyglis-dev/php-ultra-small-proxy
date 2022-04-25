@@ -1,6 +1,23 @@
 <?php
 
+/**
+ * This file is part of szczyglis/php-ultra-small-proxy.
+ *
+ * (c) Marcin Szczyglinski <szczyglis@protonmail.com>
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+
 session_start();
+
+/**
+ * @package szczyglis/php-ultra-small-proxy
+ * @author Marcin Szczyglinski <szczyglis@protonmail.com>
+ * @copyright 2022 Marcin Szczyglinski
+ * @license   http://www.opensource.org/licenses/MIT The MIT License
+ * @link https://github.com/szczyglis-dev/php-ultra-small-proxy
+ */
 
 echo '<h1>ULTRA SMALL PROXY - LOOPBACK TEST</h1><hr>';
 echo '<h1>URLS REWRITE TEST</h1>';
