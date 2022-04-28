@@ -1,5 +1,5 @@
 # [PHP] Ultra Small Proxy 2
-PHP: **7.2.5+|8.0+**, current release: **2.1.2** build 2022-04-28
+PHP: **7.2.5+, 8.0+**, current release: **2.1.2** build 2022-04-28
 
 **Ultra Small Proxy is a light-weight proxy written in PHP.**
 
