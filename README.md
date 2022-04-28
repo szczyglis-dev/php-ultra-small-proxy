@@ -23,7 +23,7 @@ composer require szczyglis/php-ultra-small-proxy
 - Toolbar with address bar, configuration and debugger
 - URLs rewriting/proxying at runtime (links, images, css, javascript, etc.)
 - 2 different methods for URLs rewriting: Regex (with preg_replace) and XML (with libxml/DOM)
-- PHP 7.2.5+ supported
+- PHP 7.2.5+|8.0+ supported
 
 ## Requirements:
 
