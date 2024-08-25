@@ -172,18 +172,13 @@ Other methods:
 ### Changelog 
 
 - `2.1.0` -- package was added to packagist (2022-04-23)
-
 - `2.1.1` -- updated PHPDoc (2022-04-25)
-- 
 - `2.1.2` -- composer.json updated (2022-04-28)
- 
-### Ultra Small Proxy is free to use but if you liked then you can donate project via BTC: 
 
-**14X6zSCbkU5wojcXZMgT9a4EnJNcieTrcr**
+--- 
+**Ultra Small Proxy is free to use, but if you like it, you can support my work by buying me a coffee ;)**
 
-or by PayPal:
- **[https://www.paypal.me/szczyglinski](https://www.paypal.me/szczyglinski)**
-
+https://www.buymeacoffee.com/szczyglis
 
 **Enjoy!**
 
