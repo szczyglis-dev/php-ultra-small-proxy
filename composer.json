@@ -1,6 +1,6 @@
 {
     "name": "szczyglis/php-ultra-small-proxy",
-    "description": "Light-weight proxy with full support for sessions, cookies, POST/FORMS submiting and URLs rewriting",
+    "description": "Lightweight proxy with full support for sessions, cookies, POST/FORM submissions, and URL rewriting.",
     "type": "library",
     "license": "MIT",
     "homepage": "https://github.com/szczyglis-dev/php-ultra-small-proxy",
