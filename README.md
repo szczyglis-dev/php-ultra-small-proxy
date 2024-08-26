@@ -1,38 +1,38 @@
-PHP: **7.2.5+, 8.0+**, current release: **2.1.2** build 2022-04-28
+Release: **2.1.3** | build: **2024.08.26** | PHP: **^7.2.5|^8.0**
 
 # Ultra Small Proxy 2
 
-**Ultra Small Proxy is a light-weight proxy written in PHP.**
+**Ultra Small Proxy is a lightweight proxy written in PHP.**
 
-## How to install:
+## How to install
 ```
 composer require szczyglis/php-ultra-small-proxy
 ``` 
-## Features:
+## Features
 - Proxy server written in PHP
-- Easy usage and integration
-- Simple and light-weight
+- Easy to use and integrate
+- Simple and lightweight
 - Sessions support
-- Sending and receiving cookies
-- Sending and receiving HTTP headers
-- Cache and assets storage
+- Supports sending and receiving cookies
+- Supports sending and receiving HTTP headers
+- Cache and asset storage
 - Domain and IP/host connection support
 - HTTP Basic Auth support
-- GET and POST connections
-- Forms submiting support
-- POST variables redirecting
-- Toolbar with address bar, configuration and debugger
-- URLs rewriting/proxying at runtime (links, images, css, javascript, etc.)
-- 2 different methods for URLs rewriting: Regex (with preg_replace) and XML (with libxml/DOM)
-- PHP 7.2.5+|8.0+ supported
+- GET and POST request handling
+- Form submission support
+- POST variable redirection
+- Toolbar with address bar, configuration, and debugger
+- URLs rewritten/proxied at runtime (links, images, CSS, JavaScript, etc.)
+- Two different methods for URL rewriting: Regex (with preg_replace) and XML (with libxml/DOM)
+- Supports PHP 7.2.5+ and 8.0+
 
-## Requirements:
+## Requirements
 
-- PHP 7.2.5+ with CURL and XML extensions
+- PHP 7.2.5+ or 8.0+ with CURL and XML extensions
 - Composer - https://getcomposer.org/
 
 
-## Usage example:
+## Usage example
 ```php
 <?php
 // app.php
@@ -49,16 +49,16 @@ $proxy = new UltraSmallProxy($config);
 echo $proxy->load('https://github.com'); // <-- specify start page here
 
 ```
-Make sure to have write permissions to `./cookies` and `./cache` directories.
+Ensure you have write permissions to the `./cookies` and `./cache` directories.
 
-### BE CAREFUL: directory with cookies should not be available to the public!
+### WARNING: The cookies directory should not be publicly accessible!
 
-## Screenshot:
+## Screenshot
 
 ![proxy](https://user-images.githubusercontent.com/61396542/155353063-fde84995-6e43-46c4-8a1c-b8b4772e6dfc.png)
 
 
-Open `loopback.php` if you want to test proxy features like sessions support, POST vars redirecting, form submiting and more, e.g.:
+Open `loopback.php` if you want to test proxy features such as session support, POST variable redirection, form submission, and more, e.g.:
 ```php
 <?php
 
@@ -71,10 +71,10 @@ $output = $proxy->load('http://localhost/loopback.php');
 
 - `index.php` - usage example
 
-- `loopback.php` - loopback for test features like session support, form vars sending, and cookies redirecting
+- `loopback.php` - loopback for testing features like session support, form variable sending, and cookie redirection
 
 
-## Basic usage:
+## Basic usage
 
 ```php
 
@@ -87,12 +87,12 @@ $proxy = new UltraSmallProxy($config);
 echo $proxy->load('https://github.com');
 ```
 
-## Configuration:
+## Configuration
 
 ```php
 $output = $proxy->load('https://github.com', $force = false); 
 ```
-boolean `$force` - if set to `false` then URLs given from QUERY STRING are always overwriting URLs passed here, set to `true` if you want to reverse this behaviour, default: `false`
+Boolean `$force` - if set to `false`, URLs given in the QUERY STRING will always overwrite URLs passed here. Set to `true` to reverse this behavior. Default: `false`.
 
 
 ## Config values:
@@ -146,7 +146,7 @@ Before page load:
 **$config->set('htaccess_pass', 'pass')** - `string`, HTTP AUTH password
 
 
-## Public methods:
+## Public methods
 
 After page load:
 
@@ -165,15 +165,19 @@ After page load:
  
 Other methods:
 
-**$parsed = $proxy->render($html)** - parse/rewrite URLs in custom html content with selected `$rewriteMode`
+**$parsed = $proxy->render($html)** - parses/rewrites URLs in custom HTML content with the selected `$rewriteMode`.
 
 ---
 
 ### Changelog 
 
-- `2.1.0` -- package was added to packagist (2022-04-23)
-- `2.1.1` -- updated PHPDoc (2022-04-25)
-- `2.1.2` -- composer.json updated (2022-04-28)
+`2.1.0` -- Package was added to Packagist (2022-04-23)
+
+`2.1.1` -- Updated PHPDoc (2022-04-25)
+
+`2.1.2` -- Updated composer.json (2022-04-28)
+
+`2.1.3` -- improved documentation (2024-08-26)
 
 --- 
 **Ultra Small Proxy is free to use, but if you like it, you can support my work by buying me a coffee ;)**
